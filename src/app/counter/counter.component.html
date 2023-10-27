@@ -1,0 +1,14 @@
+
+<div id="counter-button">
+    <button (click)="show()" >{{isVisible?"Hide Counter":"Show Counter"}}</button>
+</div>
+
+<!-- <p>This is the counter application please use below buttons for function</p> -->
+
+<div class="counter" *ngIf="isVisible">
+    <h1>Count: {{ count }}</h1>
+    <button (click)="increment()">Increment</button>
+    <button (click)="reset()">Reset</button>
+    <button (click)="decrement()">Decrement</button>
+</div>
+  

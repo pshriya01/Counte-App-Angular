@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: rgb(242, 88, 88);
+}
+#counter-button {
+    text-align: center;
+}
+
+#counter-button>button {
+    padding: 0.5rem;
+    border-radius:1rem;
+    background-color: rgb(138, 105, 237);
+    color:white
+}
+
+.counter{
+    /* margin:auto; */
+    margin-top: 2rem;
+    text-align: center;
+}
+.counter button {
+   padding: 0.2rem;
+   margin-left: 1rem;
+   background-color: rgb(138, 105, 237);
+   color:white
+}
